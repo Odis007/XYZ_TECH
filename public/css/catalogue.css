@@ -1,0 +1,109 @@
+.page-title {
+    padding-bottom: 2rem;
+    margin-bottom: 3rem; 
+    border-bottom: 1px solid #e9ecef;
+}
+
+.page-title h1 {
+    color: black;
+    font-size: 3rem; 
+    font-weight: 800;  
+    margin-bottom: 0.5rem;
+}
+
+.page-title p {
+    color: #a0aec0;
+}
+
+.filters {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 1.5rem;
+    background: #f8f9fa;
+    padding: 1.5rem; 
+    border-radius: 0.8rem; 
+    border: 1px solid #e9ecef;
+    margin-bottom: 3rem; 
+}
+
+.filter-elements {
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+    flex-wrap: wrap;
+    flex: 1; 
+}
+
+.filter-ctgr {
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem; 
+    min-width: 200px;
+}
+
+.filter-ctgr label {
+    color: black; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;
+    font-size: 0.85rem; 
+    font-weight: 700; 
+}
+
+.filter-input { 
+    padding: 0.8rem 1rem; 
+    border: 1px solid #cbd5e1; 
+    border-radius: 0.5rem; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 0.95rem; color: #4a5568; 
+    background: white; 
+    transition: border-color 0.3s; 
+}
+
+.filter-input:focus { 
+    border-color: #f26b21;
+}
+
+.filter_price {
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem; 
+    min-width: 200px;
+}
+
+.filter_price label {
+    color: black; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;
+    font-size: 0.85rem; 
+    font-weight: 700; 
+}
+
+.filters-actions {
+    display: flex; 
+    gap: 1rem;
+}
+
+.product-catal {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2rem;
+}
+
+.default-message {
+    grid-column: 1 / -1; 
+    text-align: center;
+    background: #f8f9fa;
+    padding: 3rem;  
+    border-radius: 1rem;
+}
+
+.default-message h3 {
+    color: black; 
+    margin-bottom: 0.5rem;
+}
+
+.default-message p {
+    color: #a0aec0;
+}
